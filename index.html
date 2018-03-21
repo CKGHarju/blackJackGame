@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BlackJack Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="engine.js" async></script>
+</head>
+<body> last modified 9.3.2018, 04.00
+    <div class="gameCanvas">
+        <div class="gameTitle section">
+            <div id="title">BLACKJACK</div>
+            <div id="console">Press play to start!</div>
+        </div>
+        <div class="dealer section cardArea">
+            <!---Cards will be inserted/removed here<div class="card"></div>-->
+        </div>
+        <div class="player section cardArea">
+            <!---Cards will be inserted/removed here<div class="card"></div>-->
+        </div>
+        <div class="interface section">
+            <!--<button id="hit">Hit</button>-->
+            <!--<button id="stand">Stand</button>-->
+            <!--<button id="play">Play</button>-->
+            <button id="play">Play</button>
+        </div>
+    </div>
+    <div id="rules">
+        Rules: Win by having a higher hand than the dealer, if your hand is over 21 you bust! Dealer draws new cards untill it has 17 or more.
+        Ace is worth 1 or 11, picture cards are worth 10, and rest of the cards are worth their value.
+        BlackJack is achieved by getting an Ace and a picture card, it'll win over any other hand. </br></br>
+        Game created by Christopher Harju, for the purpuse of <a href="https://codeworks.me/" title="Codeworks">Codeworks</a> admission challenge. Chrharju@gmail.com. </br>
+    Background:
+    <a href="http://www.gnu.org/licenses/lgpl.html" title="Creative Commons CC0">LGPL</a>, <a href="https://cdn.pixabay.com/photo/2017/01/17/13/18/poker-1986885_960_720.jpg">source</a>.
+    Cardbacks:
+    <a href="http://www.gnu.org/licenses/lgpl.html" title="GNU Lesser General Public License">LGPL</a>, source: <a href="https://commons.wikimedia.org/w/index.php?curid=376389">Link</a>
+    </div>
+</body>
+</html>
